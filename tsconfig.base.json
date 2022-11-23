@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@parts/test-helpers": ["libs/test-helpers/src/index.ts"],
+      "@parts/todos": ["libs/todos/src/index.ts"],
+      "@parts/todos/data": ["libs/todos-data/src/index.ts"],
+      "@parts/todos/registry": ["libs/todos-registry/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
