@@ -29,4 +29,4 @@ Other typical packages are UI libraries, utility functions, and classic librarie
 ## What's next?
 
 If you are interested in learning more, I encourage you to read the source code, run it locally and perhaps play with the code.
-Author: [Murat Aslan](https://github.com/murataslan1).
+
